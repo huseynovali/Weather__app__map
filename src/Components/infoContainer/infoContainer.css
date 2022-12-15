@@ -1,0 +1,79 @@
+
+.info {
+    z-index: 12;
+    color: #fff;
+    position: absolute;
+    inset: 0;
+  }
+  
+  .location__name {
+    text-align: center;
+  }
+  
+  .degre {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .degre > p {
+    font-size: 45px;
+    margin: 0;
+  }
+  
+  .circle__icon {
+    top: 20px;
+  }
+  .temprature {
+    display: flex;
+  }
+  
+  .temprature img {
+    height: 70px;
+    margin-left: -100px;
+  }
+  
+  .weather__info__text {
+    margin: 0;
+    text-align: center;
+    margin-top: -5px;
+  }
+  
+  .weather__info__icon {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .temp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hr {
+    width: 3px;
+    height: 50px;
+    background: #fff;
+    margin: 0 15px;
+  }
+  
+  .humid,
+  .temp,
+  .wind__speed {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  
+  .temp span:first-of-type {
+    padding-right: 10px;
+  }
+  .temp__min__max {
+    margin-left: -10px;
+  }
+  p {
+    margin: 0;
+  }
