@@ -8,17 +8,15 @@ function MyComponent() {
     width: "100%",
     height: "100vh",
   };
-
   const center = {
     lat: 40.399115172256465,
     lng: 49.86790313641712,
   };
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyBBdFkdxHu3p5eHCTUzfhnoqqmlsXLsRmY",
+    googleMapsApiKey:process.env.REACT_APP_CHECK_MAP_API_KEY,
   });
   const onClick = (location) => {
-    console.log(location.lat);
     dispatch(addLocation(location));
   };
 
